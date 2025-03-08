@@ -10,9 +10,9 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # My Token
-TOKEN = "8095737556:AAGXGYpSHsysEayBrN5NpC_0fcn81hp-xpg"
+TOKEN = "your_token_telegram_bot"
 # OpenWeatherMap API Key
-WEATHER_API_KEY = "09462269509148564219f8fd1dd2a88a"
+WEATHER_API_KEY = "your_API_key"
 
 # Initialize the bot
 bot = Bot(token=TOKEN)
